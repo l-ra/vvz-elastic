@@ -1,0 +1,355 @@
+{
+    "mappings": {
+        "VerejnaZakazka": {
+            "properties": {
+                "BylaPouzitaElektronickaDrazba": {
+                    "type": "string"
+                    ,"index": "not_analyzed"
+                },
+                "CPVdoplnkovy1": {
+                    "type": "string"
+                    ,"index": "not_analyzed"
+                },
+                "CPVdoplnkovy2": {
+                    "type": "string"
+                    ,"index": "not_analyzed"
+                },
+                "CPVhlavni": {
+                    "type": "string"
+                    ,"index": "not_analyzed"
+                },
+                "CelkovaKonecnaHodnotaVZ": {
+                    "type": "double"
+                },
+                "CelkovaKonecnaHodnotaVZmena": {
+                    "type": "string"
+                    ,"index": "not_analyzed"
+                },
+                "CelkovaKonecnaHodnotaVZprocentniSazbaDPH": {
+                    "type": "double"
+                },
+                "CelkovaKonecnaHodnotaVZsazbaDPH": {
+                    "type": "string"
+                    ,"index": "not_analyzed"
+                },
+                "CisloFormulareNaVVZ": {
+                    "type": "string"
+                    ,"index": "not_analyzed"
+                },
+                "CtvrtyPredmetCPVhlavni": {
+                    "type": "string"
+                    ,"index": "not_analyzed"
+                },
+                "DatumOdeslaniFormulareNaVVZ": {
+                    "type": "date"
+                    ,"format": "dd.MM.yyyy"
+                },
+                "DatumUverejneni": {
+                    "type": "date"
+                    ,"format": "dd.MM.yyyy"
+                },
+                "DodavatelICO": {
+                    "type": "string"
+                    ,"index": "not_analyzed"
+                },
+                "DruhFormulare": {
+                    "type": "string"
+                    ,"index": "not_analyzed"
+                },
+                "DruhRizeni": {
+                    "type": "string"
+                    ,"index": "not_analyzed"
+                },
+                "DruhVZ": {
+                    "type": "string"
+                    ,"index": "not_analyzed"
+                },
+                "DruhyPredmetCPVhlavni": {
+                    "type": "string"
+                    ,"index": "not_analyzed"
+                },
+                "EvidencniCisloVZnaVVZ": {
+                    "type": "string"
+                    ,"index": "not_analyzed"
+                },
+                "HlavniKriteriaProZadaniZakazky": {
+                    "type": "string"
+                },
+                "HlavniMistoPlneni": {
+                    "type": "string"
+                },
+                "KategorieSluzeb": {
+                    "type": "string"
+                    ,"index": "not_analyzed"
+                },
+                "Kriterium1": {
+                    "type": "string"
+                },
+                "Kriterium10": {
+                    "type": "string"
+                },
+                "Kriterium2": {
+                    "type": "string"
+                },
+                "Kriterium3": {
+                    "type": "string"
+                },
+                "Kriterium4": {
+                    "type": "string"
+                },
+                "Kriterium5": {
+                    "type": "string"
+                },
+                "Kriterium6": {
+                    "type": "string"
+                },
+                "Kriterium7": {
+                    "type": "string"
+                },
+                "Kriterium8": {
+                    "type": "string"
+                },
+                "Kriterium9": {
+                    "type": "string"
+                },
+                "LimitVZ": {
+                    "type": "string"
+                    ,"index": "not_analyzed"
+                },
+                "NaVZseVztahujeGPA": {
+                    "type": "string"
+                    ,"index": "not_analyzed"
+                },
+                "NazevVZ": {
+                    "type": "string"
+                },
+                "NejnizsiNabidkaVzataVuvahu": {
+                    "type": "double"
+                },
+                "NejnizsiNabidkaVzataVuvahuMena": {
+                    "type": "string"
+                    ,"index": "not_analyzed"
+                },
+                "NejnizsiNabidkaVzataVuvahuSazbaDPH": {
+                    "type": "string"
+                    ,"index": "not_analyzed"
+                },
+                "NejvyssiNabidkaVzataVuvahu": {
+                    "type": "double"
+                },
+                "OdhadovanaHodnotaVZbezDPH": {
+                    "type": "double"
+                },
+                "OdhadovanaHodnotaVZmena": {
+                    "type": "string"
+                    ,"index": "not_analyzed"
+                },
+                "OdhadovanaHodnotaVZrozsahDo": {
+                    "type": "double"
+                },
+                "OdhadovanaHodnotaVZrozsahMena": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                    
+                },
+                "OdhadovanaHodnotaVZrozsahOd": {
+                    "type": "double"
+                },
+                "PatyPredmetCPVhlavni": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                    
+                },
+                "PlatnyFormular": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                    
+                },
+                "ProjektyCiprogramy": {
+                    "type": "string"
+                },
+                "StrucnyPopisVZ": {
+                    "type": "string"
+                },
+                "TretiPredmetCPVhlavni": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                    
+                },
+                "TypFormulare": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                    
+                },
+                "VZdelenaNaCasti": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                    
+                },
+                "VahaKriteria1": {
+                    "type": "double"
+                },
+                "VahaKriteria10": {
+                    "type": "double"
+                },
+                "VahaKriteria2": {
+                    "type": "double"
+                },
+                "VahaKriteria3": {
+                    "type": "double"
+                },
+                "VahaKriteria4": {
+                    "type": "double"
+                },
+                "VahaKriteria5": {
+                    "type": "double"
+                },
+                "VahaKriteria6": {
+                    "type": "double"
+                },
+                "VahaKriteria7": {
+                    "type": "double"
+                },
+                "VahaKriteria8": {
+                    "type": "double"
+                },
+                "VahaKriteria9": {
+                    "type": "double"
+                },
+                "ZadavatelDruh": {
+                    "type": "string"
+                   ,"index": "not_analyzed"                    
+                },
+                "ZadavatelHlavniPredmetCinnosti": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                                        
+                },
+                "ZadavatelICO": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                    
+                },
+                "ZadavatelUredniNazev": {
+                    "type": "string"
+                },
+                "ZadavatelZadavaJmenemJinych": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                                        
+                },
+                "ZakazkaSeVztahujeKprojektuFinZes": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                                        
+                },
+                "typZaznamu": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                                        
+                }
+            }
+        },
+        "CastiVerejneZakazky": {
+            "properties": {
+                "CelkovaKonecnaHodnotaVZSazbaDPHzaZadani": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                                        
+                },
+                "CelkovaKonecnaHodnotaVZmenaZaZadani": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                                        
+                },
+                "CelkovaKonecnaHodnotaVZprocentniSazbaDPHzaZadani": {
+                    "type": "double"
+                },
+                "CelkovaKonecnaHodnotaVZzaZadani": {
+                    "type": "double"
+                },
+                "CisloCastiZadaniVZ": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                                        
+                },
+                "CisloFormulareNaVVZ": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                                        
+                },
+                "DatumZadaniVZ": {
+                    "type": "date"
+                    ,"format": "dd.MM.yyyy"
+                },
+                "DodavatelNazev": {
+                    "type": "string"
+                },
+                "DodavatelNazevTerm": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                },
+                "DodavatelObec": {
+                    "type": "string"
+                },
+                "DodavatelPSC": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                                        
+                },
+                "DodavatelPostovniAdresa": {
+                    "type": "string"
+                },
+                "DodavatelStat": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                                        
+                },
+                "DodavatelWww": {
+                    "type": "string"
+                },
+                "EvidencniCisloVZnaVVZ": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                                        
+                },
+                "HodnotaNejnizsiNabidky": {
+                    "type": "double"
+                },
+                "HodnotaNejnizsiNabidkyMena": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                                        
+                },
+                "HodnotaNejnizsiNabidkySazbaDPH": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                                        
+                },
+                "NazevCastiVZ": {
+                    "type": "string"
+                },
+                "PlatnyFormular": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                                        
+                },
+                "PocetObdrzenychNabidek": {
+                    "type": "long"
+                },
+                "PuvodniOdhadovanaCelkovaHodnotaVZ": {
+                    "type": "double"
+                },
+                "PuvodniOdhadovanaCelkovaHodnotaVZMena": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                                        
+                },
+                "PuvodniOdhadovanaCelkovaHodnotaVZprocentniSazbaDPH": {
+                    "type": "double"
+                },
+                "PuvodniOdhadovanaCelkovaHodnotaVZsazbaDPH": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                                        
+                },
+                "RocniCiMesicniHodnotaPocetMesicu": {
+                    "type": "long"
+                },
+                "RocniCiMesicniHodnotaPocetRoku": {
+                    "type": "long"
+                },
+                "SubdodavkyHodnotaBezDPH": {
+                    "type": "double"
+                },
+                "SubdodavkyMena": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                                        
+                },
+                "SubdodavkyPomer": {
+                    "type": "double"
+                },
+                "typZaznamu": {
+                    "type": "string"
+                    ,"index": "not_analyzed"                                        
+                }
+            }
+        }
+    }
+}
